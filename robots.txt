@@ -1,0 +1,17 @@
+User-agent: Yandex
+Allow: /media/
+Disallow: /
+Disallow: /application/
+Disallow: /modules/
+Disallow: /system/
+
+User-agent: *
+Allow: /media/
+Disallow: /
+Disallow: /application/
+Disallow: /modules/
+Disallow: /system/
+
+Host: gilamov.ru
+Sitemap: http://gilamov.ru/sitemap.xml
+Sitemap: http://gilamov.ru/sitemap.xml.gz
