@@ -82,11 +82,11 @@ unset($application, $modules, $system, $theme, $libs, $media);
 /**
  * Проверка правильности установка. Оставлю пока для проверки развертывания на боевом хостинге
  */
-if (file_exists('install'.EXT))
-{
-	// Load the installation check
-	return include 'install'.EXT;
-}
+//if (file_exists('install'.EXT))
+//{
+//	// Load the installation check
+//	return include 'install'.EXT;
+//}
 
 /**
  * Константа: Старт отсчета времени
